@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 90%;
+    height: 100vh;
+     background-color: #3498db;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.box{
+    width: 70%;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+#item{
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    font-weight: bold;
+    box-shadow: 0 0 2px gray;
+    display: block;
+}
+#to-do-box{
+    margin-top: 20px;
+    list-style: none;
+}
+#to-do-box li{
+    background-color: cadetblue;
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    user-select: none;
+}
+#to-do-box li i {
+ 
+}
+.done{
+    text-decoration: line-through;
+    color: black !important;
+    background-color: aliceblue !important;
+}
+ 
